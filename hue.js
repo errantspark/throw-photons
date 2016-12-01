@@ -151,9 +151,10 @@ var initiate = function(n) {
 
 initiate(window);
 
-group0.put({
-    alert: 'select'
-});
+//fixes the flashing?
+//group0.put({
+//    alert: 'select'
+//});
 var bez = chroma.interpolate.bezier(['red', 'yellow', 'blue', 'purple']);
 var testscale = chroma.scale(bez).correctLightness(true);
 var rotate = chroma.scale(["red", "blue", "green", "red"]);

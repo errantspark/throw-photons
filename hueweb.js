@@ -135,3 +135,6 @@ var sendcomm = function() {
 }
 test = setInterval(sendcomm, spd)
     //clearInterval(test);
+$("#tagline").click(function(){
+    $("#tagline").hide();
+});
